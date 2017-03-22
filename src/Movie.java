@@ -1,5 +1,5 @@
 
-class Movie extends Item{
+final class Movie extends Item{
 	private double duration;
 	private String producer;
 	

@@ -1,4 +1,4 @@
-class Recreational extends Book{
+final class Recreational extends Book{
 	private String genre;
 
 	

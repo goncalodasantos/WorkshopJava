@@ -35,12 +35,7 @@ abstract class Book extends Item{
 	
 
 	
-	public int getType(){
-		
-		return 0;
-		
-	}
-	
+	public abstract int getType();	
 	
 	
 }

@@ -1,4 +1,4 @@
-class SchoolMaterial extends Book{
+final class SchoolMaterial extends Book{
 
 	private String subject;
 	private int year;
