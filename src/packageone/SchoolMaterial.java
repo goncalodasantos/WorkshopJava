@@ -12,7 +12,6 @@ final class SchoolMaterial extends Book{
 	}
 
 
-	@Override
 	public String toString() {
 		return "SchoolMaterial\n"+super.toString()+"\nSubject: "+subject+"\nYear: "+year;
 	}

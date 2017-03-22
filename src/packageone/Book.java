@@ -28,7 +28,6 @@ abstract class Book extends Item{
 	}
 
 
-	@Override
 	public String toString() {
 		return super.toString()+"\nISBN: " + isbn + "\nNumberOfPages: " + numberOfPages;
 	}

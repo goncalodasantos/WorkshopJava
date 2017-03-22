@@ -40,7 +40,6 @@ final class Movie extends Item{
 
 
 
-	@Override
 	public String toString() {
 		return "Movie\n" +super.toString()+"\nDuration: "+ duration + "\nProducer: " + producer;
 	}
