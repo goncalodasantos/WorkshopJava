@@ -1,3 +1,4 @@
+package packageone;
 final class SchoolMaterial extends Book{
 
 	private String subject;

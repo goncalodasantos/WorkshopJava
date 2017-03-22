@@ -1,3 +1,4 @@
+package packageone;
 
 final class Movie extends Item{
 	private double duration;
