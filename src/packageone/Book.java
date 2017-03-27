@@ -7,7 +7,7 @@ abstract class Book extends Item{
 	
 	
 	
-	public Book(String name, String isbn, int numberOfPages) {
+	public Book(String name, String isbn, int numberOfPages) {//construtor do livro. De notar que vai chamar o construtor da sua superclasse.
 		super(name);
 		this.isbn = isbn;
 		this.numberOfPages = numberOfPages;
@@ -28,14 +28,14 @@ abstract class Book extends Item{
 	}
 
 
-	public String toString() {
+	public String toString() {//função para imprimir os dados deste objeto. Vai chamar o toString da sua superclasse, para imprimir também os dados dela
 		return super.toString()+"\nISBN: " + isbn + "\nNumberOfPages: " + numberOfPages;
 	}
 	
 	
 
 	
-	public abstract int getType();	
+	public abstract int getType();	//função abstrata para retornar o tipo. Como esta classe nunca vai ter instancias, pode ser declarada como abstrata e podemos não implementar aqui a função
 	
 	
 }

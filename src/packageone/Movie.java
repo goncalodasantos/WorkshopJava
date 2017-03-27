@@ -8,7 +8,7 @@ final class Movie extends Item{
 	
 
 
-	public Movie(String name, double duration, String producer) {
+	public Movie(String name, double duration, String producer) {//construtor do livro. De notar que vai chamar o construtor da sua superclasse.
 		super(name);
 		this.duration = duration;
 		this.producer = producer;
@@ -40,12 +40,12 @@ final class Movie extends Item{
 
 
 
-	public String toString() {
+	public String toString() {//função para imprimir os dados deste objeto. Vai chamar o toString da sua superclasse, para imprimir também os dados dela
 		return "Movie\n" +super.toString()+"\nDuration: "+ duration + "\nProducer: " + producer;
 	}
 	
 	
-	public int getType(){
+	public int getType(){ //função caso a instancia seja o um material escolar, returnará 1
 		
 		return 1;
 		
